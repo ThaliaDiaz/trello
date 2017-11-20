@@ -12,8 +12,6 @@ body{
 
 #cross{
     color: gray;
-    size: 30px;
-    padding-left: 5px;  
 }
 
 #header {
@@ -98,6 +96,7 @@ content{
     border: 1px solid #998e96;
     float: left;
     margin-bottom: 5px;  
+    color:#333;
 }
 .insert-list-input::placeholder {
     color: gray;

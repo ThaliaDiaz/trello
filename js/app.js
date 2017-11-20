@@ -3,7 +3,6 @@ window.addEventListener('load', function() {
   var input = document.getElementById('input');
   var container = document.getElementById('container');
   
-
   /* Mostrando el form cuando le doy clic al botón*/
   input.addEventListener('click', function(event) {
     input.value = '';
@@ -13,6 +12,6 @@ window.addEventListener('load', function() {
     div.setAttribute('class', 'board-insert-list');
     input.setAttribute('class', 'list-name-input insert-list-input');
     button.setAttribute('class', 'button-insert-list');
-    close.setAttribute('class', 'fa fa-times');
+    close.setAttribute('class', 'fa fa-times fa-2x');
   });
 });
